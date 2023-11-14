@@ -158,6 +158,118 @@ console.log(div(1, 2));
 console.log("=====================================")
 
 
+// Arrays
+
+const arr = [1, 2, 3, 4, 5]
+console.log(arr)
+
+// Arrays - 2
+
+const arr2 = [1, 2, 3, 4, 5]
+console.log(arr2[0])
+
+// Arrays - 3
+
+const arr3 = [1, 2, 3, 4, 5]
+console.log(arr3.length)
+
+// Arrays - 4
+
+const arr4 = [1, 2, 3, 4, 5]
+console.log(arr4[arr4.length - 1])
+
+// Arrays - 5
+
+const arr5 = [1, 2, 3, 4, 5]
+arr5[0] = 10
+console.log(arr5)
+
+// Arrays - 6
+
+const arr6 = [1, 2, 3, 4, 5]
+arr6.push(10)
+console.log(arr6)
+
+// Arrays - 7
+
+const arr7 = [1, 2, 3, 4, 5]
+arr7.pop()
+console.log(arr7)
+
+// Arrays - 8
+
+const arr8 = [1, 2, 3, 4, 5]
+arr8.shift()
+console.log(arr8)
+
+// Arrays - 9
+
+const arr9 = [1, 2, 3, 4, 5]
+arr9.unshift(10)
+console.log(arr9)
+
+// Arrays - 10
+
+const arr10 = [1, 2, 3, 4, 5]
+arr10.splice(2, 1)
+console.log(arr10)
+
+// Arrays - 11
+
+const arr11 = [1, 2, 3, 4, 5]
+arr11.splice(2, 1, 10)
+console.log(arr11)
+
+// Arrays - 12
+
+const arr12 = [1, 2, 3, 4, 5]
+arr12.splice(2, 0, 10)
+console.log(arr12)
+
+// Arrays - 13
+
+const arr13 = [1, 2, 3, 4, 5]
+
+for (let i = 0; i < arr13.length; i++) {
+    console.log(arr13[i])
+}
+
+// Arrays - Index of Element
+
+const arr14 = [1, 2, 3, 4, 5]
+console.log(arr14.indexOf(3))
+
+//Arrays - Included Element
+
+const arr15 = [1, 2, 3, 4, 5]
+console.log(arr15.includes(3))
+
+// Arrays - Included Element - 2
+
+const arr16 = [1, 2, 3, 4, 5]
+console.log(arr16.includes(10))
+
+// Arrays - Included Element - 3
+
+const arr17 = [1, 2, 3, 4, 5]
+console.log(arr17.includes(10, 2))
+
+// Arrays - Included Element - 4
+
+const arr18 = [1, 2, 3, 4, 5]
+console.log(arr18.includes(3, 2))
+
+// Arrays - Included Element - 5
+
+const arr19 = [1, 2, 3, 4, 5]
+console.log(arr19.includes(3, -2))
+
+// Arrays - Included Element - 6
+
+const arr20 = [1, 2, 3, 4, 5]
+console.log(arr20.includes(3, -4))
+
+
 
 
 
