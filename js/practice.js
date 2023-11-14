@@ -103,4 +103,62 @@ for (let i = 0; i < 10; i++) {
 
 console.log("=====================================")
 
-// While Loop
+// Function Declarations
+
+function add(a, b) {
+    return a + b
+}
+console.log(add(1, 2));
+
+// Function Expressions
+
+const sub = function (a, b) {
+    return a - b
+}
+console.log(sub(1, 2));
+
+
+// Default parameters
+
+const mult = function (a, b = 1) {
+    return a * b
+}
+console.log(mul(1, 2));
+
+
+// Arrow Functions
+
+const mul = (a, b) => {
+    return a * b
+}
+console.log(mul(1, 2));
+
+// Arrow Functions - 2
+
+const div = (a, b) => a / b
+console.log(div(1, 2));
+
+// IIFE Functions - Immediately Invoked Function Expression
+
+(function (a, b) {
+    console.log(a * b)
+})(1, 2)
+
+    // Automatically Invoked Function Expression
+
+    ((a, b) => {
+        console.log(a * b)
+    })(1, 2)
+
+    // Automatically Invoked Function Expression - 2
+
+    ((a, b) => console.log(a * b))(1, 2)
+
+
+console.log("=====================================")
+
+
+
+
+
+
