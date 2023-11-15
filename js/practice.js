@@ -123,7 +123,7 @@ console.log(sub(1, 2));
 const mult = function (a, b = 1) {
     return a * b
 }
-console.log(mul(1, 2));
+console.log(mult(1, 2));
 
 
 // Arrow Functions
@@ -144,15 +144,15 @@ console.log(div(1, 2));
     console.log(a * b)
 })(1, 2)
 
-    // Automatically Invoked Function Expression
+// Automatically Invoked Function Expression
 
-    ((a, b) => {
-        console.log(a * b)
-    })(1, 2)
+// ((a, b) => {
+//     console.log(a * b)
+// })(1, 2)
 
-    // Automatically Invoked Function Expression - 2
+// Automatically Invoked Function Expression - 2
 
-    ((a, b) => console.log(a * b))(1, 2)
+// ((a, b) => console.log(a * b))(1, 2)
 
 
 console.log("=====================================")
